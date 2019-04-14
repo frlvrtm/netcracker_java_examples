@@ -2,33 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="116eac79-48a6-4461-97f9-5674f1380964" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/check/FioPersonChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/check/PersonChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparators/AgePersonSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/comparators/FioPersonSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inject/Inject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/inject/Injector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/PersonBubleSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/PersonInsertIntoSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/PersonSelectionSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/PersonSorter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xml/DateAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xml/XMLReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xml/impl/DOMReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xml/impl/JAXBReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/xml/impl/SAXReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/persons.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/entities/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/repositories/PRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositories/PRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/entities/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/entities/PersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/repositories/PRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/repositories/PRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repositories/PRepository$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repositories/PRepository$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/repositories/PRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/repositories/PRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/entities/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/entities/PersonTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,55 +23,26 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="2034670146">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.25" value="1" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="gitignore" value="1" />
-          <entry key="java" value="61" />
-          <entry key="log" value="1" />
-          <entry key="properties" value="11" />
-          <entry key="xml" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="61" />
-          <entry key="Log" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="11" />
-          <entry key="XML" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="3071" />
-          <entry key="properties" value="232" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="3071" />
-          <entry key="Properties" value="232" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="48" column="46" lean-forward="true" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -98,23 +55,40 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/comparators/Configurator.java" />
         <option value="$PROJECT_DIR$/src/main/java/annotations/Injector.java" />
-        <option value="$PROJECT_DIR$/src/main/java/repositories/PRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/comparators/PersonSorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/check/PersonChecker.java" />
         <option value="$PROJECT_DIR$/src/main/java/comparators/AgePersonSorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/comparators/FioPersonSorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/check/FioPersonChecker.java" />
-        <option value="$PROJECT_DIR$/src/main/java/entities/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/inject/Injector.java" />
         <option value="$PROJECT_DIR$/src/test/java/entities/PersonTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/repositories/PRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/Main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/comparators/PersonBubleSorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/comparators/PersonSelectionSorter.java" />
         <option value="$PROJECT_DIR$/src/main/java/comparators/PersonInsertIntoSorter.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/xml/XMLReader.java" />
+        <option value="$PROJECT_DIR$/persons.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/xml/DateAdapter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xml/impl/JAXBReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/PRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xml/IntAdapter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/repositories/PRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xml/impl/DOMReader.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/persons.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/entities/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xml/impl/SAX.java" />
+        <option value="$PROJECT_DIR$/src/main/java/xml/impl/SAXReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -139,48 +113,111 @@
     <option name="width" value="1340" />
     <option name="height" value="688" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="XML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XML" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="XML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XML" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="XML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XML" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="lab1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab1" type="462c0819:PsiDirectoryNode" />
+              <item name="XML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XML" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="check" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="entities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545400327689" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555255479741" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/persons.xml" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/main/resources/persons.xml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\XML\src\main\resources" />
+      <recent name="C:\Users\User\Documents\XML" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -196,11 +233,11 @@
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main.Main" />
-      <module name="lab1" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="XML" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Main.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -224,13 +261,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544885436406</updated>
+      <workItem from="1555242879071" duration="5435000" />
+      <workItem from="1555248807355" duration="6666000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12101000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26279318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -242,17 +285,19 @@
       <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4622951" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46153846" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
       <window_info anchor="bottom" id="Console" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -261,26 +306,16 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="263" selection-start-line="263" selection-end-line="263" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/comparators/Configurator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Class.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/comparators/Configurator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/sort/PersonSorter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -302,26 +337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="153" column="4" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;class#Person#0" />
-            <element signature="docComment;field#id#0;class#Person#0" />
-            <element signature="docComment;field#lastname#0;class#Person#0" />
-            <element signature="docComment;field#firstname#0;class#Person#0" />
-            <element signature="docComment;field#middlename#0;class#Person#0" />
-            <element signature="docComment;field#name#0;class#Person#0" />
-            <element signature="docComment;field#gender#0;class#Person#0" />
-            <element signature="docComment;field#birthDay#0;class#Person#0" />
-            <element signature="docComment;method#Person#0;class#Person#0" />
-            <element signature="docComment;method#Person#1;class#Person#0" />
-            <element signature="docComment;method#getAge#0;class#Person#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/inject/Injector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
@@ -339,11 +354,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log/application.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-3101" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log/application.log" />
     <entry file="file://$PROJECT_DIR$/src/test/java/entities/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -351,20 +362,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/repositories/PRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -376,17 +374,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="18" selection-end-line="12" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding>
-            <element signature="docComment;class#Main#0" />
-            <element signature="docComment;field#format#0;class#Main#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -438,11 +425,43 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xml/XMLReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/LogManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#527#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xml/IntAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/repositories/PRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-927">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="238">
+          <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="docComment;class#PRepository#0" />
             <element signature="docComment;field#person#0;class#PRepository#0" />
             <element signature="docComment;method#size#0;class#PRepository#0" />
@@ -453,6 +472,103 @@
             <element signature="docComment;method#searchByBirthDate#0;class#PRepository#0" />
             <element signature="docComment;method#sortByFio#0;class#PRepository#0" />
             <element signature="docComment;method#sortByAge#0;class#PRepository#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/repositories/PRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/entities/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="docComment;class#Person#0" />
+            <element signature="docComment;field#id#0;class#Person#0" />
+            <element signature="docComment;field#lastname#0;class#Person#0" />
+            <element signature="docComment;field#firstname#0;class#Person#0" />
+            <element signature="docComment;field#middlename#0;class#Person#0" />
+            <element signature="docComment;field#name#0;class#Person#0" />
+            <element signature="docComment;field#gender#0;class#Person#0" />
+            <element signature="docComment;field#birthDay#0;class#Person#0" />
+            <element signature="docComment;method#Person#1;class#Person#0" />
+            <element signature="docComment;method#getAge#0;class#Person#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xml/DateAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xml/impl/JAXBReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/org/xml/sax/helpers/DefaultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3362">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xml/impl/SAX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" selection-start-line="9" selection-end-line="24" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xml/impl/SAXReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/xml/impl/DOMReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/persons.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="48" column="46" lean-forward="true" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

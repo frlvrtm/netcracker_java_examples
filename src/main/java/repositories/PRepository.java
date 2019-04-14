@@ -9,21 +9,30 @@ import sort.PersonSorter;
 import entities.Person;
 import org.apache.log4j.Logger;
 
+import javax.xml.bind.annotation.*;
 import java.io.FileReader;
 
 /**
  * Класс Repository
  */
+@XmlRootElement(name = "persons")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class PRepository {
 
-    final static Logger logger = Logger.getLogger(FileReader.class);
+//    private final static Logger logger = Logger.getLogger(FileReader.class);
 
     /**
      * Инициализирует массив объектов
      */
-    private Person[] person = new Person[0];
+    @XmlElement(name = "person")
+    private Person[] person;
+
+    public PRepository() {
+        person = new Person[0];
+    }
 
     @Inject
+    @XmlTransient
     private PersonSorter sorter;
 
     /**
@@ -49,7 +58,7 @@ public class PRepository {
             temp[temp.length - 1] = p;
             this.person = temp;
         } catch (Exception e) {
-            logger.error(e);
+//            logger.error(e);
         }
     }
 
@@ -70,7 +79,7 @@ public class PRepository {
                 }
             }
         } catch (Exception e) {
-            logger.error(e);
+//            logger.error(e);
         }
     }
 
@@ -125,5 +134,15 @@ public class PRepository {
      */
     public void sortByAge() {
         sorter.sort(person, new AgePersonSorter());
+    }
+
+    @Override
+    public String toString() {
+        final StringBuilder builder = new StringBuilder();
+        builder.append("Persons:").append("\n");
+        for (int i = 0; i < person.length; i++) {
+            builder.append(person[i].toString());
+        }
+        return builder.toString();
     }
 }

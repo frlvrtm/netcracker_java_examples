@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons>
+    <person id="1" lastname="Иванов" firstname="Иван" middlename="Иванович" gender="мужской" birthDay="1960-12-14"/>
+    <person id="2" lastname="Петров" firstname="Петр" middlename="Петрович" gender="мужской" birthDay="1987-10-08"/>
+    <person id="3" lastname="Виноградова" firstname="Мария" middlename="Александровна" gender="женский"
+            birthDay="1999-03-30"/>
+</persons>

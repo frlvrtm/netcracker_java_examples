@@ -2,32 +2,42 @@ package entities;
 
 import org.joda.time.LocalDate;
 import org.joda.time.Period;
+import xml.DateAdapter;
 
-import java.util.Comparator;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 /**
  * Класс Person
  */
+@XmlRootElement(name = "person")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Person {
-
     /**
      * Поле ID
      */
+    @XmlAttribute(name = "id")
     private int id;
 
     /**
      * Поле "Фамилия"
      */
+    @XmlAttribute(name = "lastname")
     private String lastname;
 
     /**
      * Поле "Имя"
      */
+    @XmlAttribute(name = "firstname")
     private String firstname;
 
     /**
      * Поле "Отчество"
      */
+    @XmlAttribute(name = "middlename")
     private String middlename;
 
     /**
@@ -38,11 +48,15 @@ public class Person {
     /**
      * Поле "пол"
      */
+    @XmlAttribute(name = "gender")
     private String gender;
 
     /**
      * Поле "Дата рождения"
      */
+    @XmlAttribute(name = "birthDay")
+    @XmlJavaTypeAdapter(value = DateAdapter.class)
+    //Позволяет задать класс, который будет преобразовывать данные поля в строку
     private LocalDate birthDay;
 
     /**
@@ -54,7 +68,6 @@ public class Person {
     /**
      * Конструктор с параметрами
      *
-     * @param id
      * @param lastname
      * @param firstname
      * @param middlename
@@ -141,8 +154,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person " +
-                "id=" + id +
+        return "id=" + id +
                 ", lastname='" + lastname + '\'' +
                 ", firstname='" + firstname + '\'' +
                 ", middlename='" + middlename + '\'' +
